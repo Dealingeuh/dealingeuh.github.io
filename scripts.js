@@ -286,7 +286,7 @@ Entrée depuis stdin</code></pre></li>
   },
   description: {
     fr: `<p><strong>Projet majeur sur plusieurs mois</strong> visant à construire un compilateur complet pour le langage <em>Tiger</em>, utilisé comme support pédagogique à l’EPITA.</p>
-    <p>Le compilateur est réalisé en <strong>C/C++</strong> et suit une architecture modulaire permettant de couvrir toutes les étapes d’une chaîne de compilation :</p>
+    <p>Le compilateur est réalisé en <strong>C++</strong> et suit une architecture modulaire permettant de couvrir toutes les étapes d’une chaîne de compilation :</p>
     <ul>
       <li><strong>Analyse lexicale</strong> avec Flex (découpage en tokens).</li>
       <li><strong>Analyse syntaxique</strong> avec Bison (construction de l’arbre de syntaxe).</li>
@@ -295,7 +295,7 @@ Entrée depuis stdin</code></pre></li>
       <li><strong>Analyse sémantique</strong> : gestion des portées, vérification des identificateurs et préparation à l’inférence de types.</li>
     </ul>
     <p>Ce projet va bien au-delà de la théorie : il inclut <strong>la gestion de projet, les tests automatisés, la documentation et les bonnes pratiques d’ingénierie logicielle</strong>.</p>`,
-    en: `<p><strong>Long-term capstone project</strong> at EPITA to build a full compiler for the <em>Tiger</em> programming language, used as a pedagogical tool.</p><p>The compiler is developed in <strong>C/C++</strong> and follows a modular pipeline covering all stages of a modern compiler:</p>
+    en: `<p><strong>Long-term capstone project</strong> at EPITA to build a full compiler for the <em>Tiger</em> programming language, used as a pedagogical tool.</p><p>The compiler is developed in <strong>C++</strong> and follows a modular pipeline covering all stages of a modern compiler:</p>
     <ul>
       <li><strong>Lexical analysis</strong> using Flex (token stream generation).</li>
       <li><strong>Syntax analysis</strong> with Bison (parse tree construction).</li>
@@ -305,7 +305,7 @@ Entrée depuis stdin</code></pre></li>
     </ul>
     <p>The project also emphasizes <strong>software engineering practices</strong>: automated testing, documentation, refactoring, and version control.</p>`
   },
-  technologies: ["C/C++", "Flex", "Bison", "Autoconf", "AST", "Compiler Design"]
+  technologies: ["C++", "Flex", "Bison", "Autoconf", "AST", "Compiler Design"]
 },
 {
   id: 4,
