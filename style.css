@@ -49,11 +49,6 @@ button {
   border-color: var(--accent);
 }
 
-html,
-body {
-  overflow-x: hidden;
-}
-
 html {
   box-sizing: border-box;
   font-size: 100%;
@@ -171,6 +166,10 @@ svg {
   width: calc(100% - 2rem);
   max-width: var(--container);
   margin-inline: auto;
+}
+
+.no-scroll {
+  overflow: hidden;
 }
 
 @media (min-width: 37.5em) {

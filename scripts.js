@@ -489,6 +489,7 @@ document.querySelectorAll(".project-btn").forEach(btn => {
       modalDescription.innerHTML = project.description[currentLang];
 
       // Display modal
+      document.body.classList.add("no-scroll");
       modal.style.display = "flex";
 
       // Add technologies
@@ -506,12 +507,14 @@ document.querySelectorAll(".project-btn").forEach(btn => {
 // Close modal (X button)
 closeBtn.addEventListener("click", () => {
   modal.style.display = "none";
+  document.body.classList.remove("no-scroll");
 });
 
 // Close modal on outside click
 window.addEventListener("click", e => {
   if (e.target === modal) {
     modal.style.display = "none";
+    document.body.classList.remove("no-scroll");
   }
 });
 
@@ -519,5 +522,6 @@ window.addEventListener("click", e => {
 window.addEventListener("keydown", e => {
   if (e.key === "Escape") {
     modal.style.display = "none";
+    document.body.classList.remove("no-scroll");
   }
 });
